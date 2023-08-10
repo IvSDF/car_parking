@@ -22,6 +22,7 @@ class StoreVehicleRequest extends FormRequest
     public function rules(): array
     {
         return [
+
             'plate_number' => 'required',
         ];
     }

@@ -15,8 +15,11 @@ class ZoneResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
+
             'id' => $this->id,
+
             'name' => $this->name,
+
             'price_per_hour' => $this->price_per_hour,
         ];
     }
